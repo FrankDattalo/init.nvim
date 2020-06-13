@@ -14,6 +14,9 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'terryma/vim-multiple-cursors'
 " powerline
 Plug 'bling/vim-airline'
+" next two plugins are to auto match brackets and parens
+Plug 'jiangmiao/auto-pairs'
+Plug 'machakann/vim-sandwich'
 call plug#end()
 " Plugins Above
 
