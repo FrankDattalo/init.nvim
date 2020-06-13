@@ -12,6 +12,8 @@ Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 " multi cursor with Control - N
 Plug 'terryma/vim-multiple-cursors'
+" powerline
+Plug 'bling/vim-airline'
 call plug#end()
 " Plugins Above
 
@@ -152,6 +154,9 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+" ruby coc
+let g:coc_global_extensions = ['coc-solargraph']
 " end coc configuration
 
 " colorscheme setup
